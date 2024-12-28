@@ -1,5 +1,5 @@
-#ifndef ARMMODEL_H
-#define ARMMODEL_H
+#ifndef Z1_SDK_ARMMODEL_H
+#define Z1_SDK_ARMMODEL_H
 
 #include <vector>
 #include "unitree_arm_sdk/thirdparty/robotics.h"

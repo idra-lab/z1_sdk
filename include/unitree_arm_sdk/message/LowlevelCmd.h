@@ -1,5 +1,5 @@
-#ifndef LOWLEVELCMD_H
-#define LOWLEVELCMD_H
+#ifndef Z1_SDK_LOWLEVELCMD_H
+#define Z1_SDK_LOWLEVELCMD_H
 
 #include "unitree_arm_sdk/math/mathTypes.h"
 #include <vector>

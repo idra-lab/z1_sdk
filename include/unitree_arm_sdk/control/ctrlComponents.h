@@ -1,5 +1,5 @@
-#ifndef CTRLCOMPONENTS_H
-#define CTRLCOMPONENTS_H
+#ifndef Z1_SDK_CTRLCOMPONENTS_H
+#define Z1_SDK_CTRLCOMPONENTS_H
 
 #include "unitree_arm_sdk/message/arm_common.h"
 #include "unitree_arm_sdk/message/LowlevelCmd.h"

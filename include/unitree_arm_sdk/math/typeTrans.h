@@ -1,5 +1,5 @@
-#ifndef TYPETRANS_H
-#define TYPETRANS_H
+#ifndef Z1_SDK_TYPETRANS_H
+#define Z1_SDK_TYPETRANS_H
 
 #include <iostream>
 #include <vector>

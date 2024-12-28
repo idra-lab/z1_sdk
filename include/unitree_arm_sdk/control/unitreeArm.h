@@ -1,5 +1,5 @@
-#ifndef __UNITREEARM_H
-#define __UNITREEARM_H
+#ifndef Z1_SDK___UNITREEARM_H
+#define Z1_SDK___UNITREEARM_H
 
 #include "unitree_arm_sdk/control/ctrlComponents.h"
 
