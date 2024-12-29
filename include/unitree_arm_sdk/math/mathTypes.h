@@ -75,28 +75,6 @@ using Mat12 = typename Eigen::Matrix<double, 12, 12>;
 // Dynamic Size Matrix
 using MatX = typename Eigen::Matrix<double, Eigen::Dynamic, Eigen::Dynamic>;
 
-/************************/
-/****** Functions *******/
-/************************/
-inline Vec34 vec12ToVec34(Vec12 vec12){
-    Vec34 vec34;
-    for(int i(0); i < 4; ++i){
-        vec34.col(i) = vec12.segment(3*i, 3);
-    }
-    return vec34;
-}
+#include "unitree_arm_sdk/math/mathTypesCommon.h"
 
-inline Vec12 vec34ToVec12(Vec34 vec34){
-    Vec12 vec12;
-    for(int i(0); i < 4; ++i){
-        vec12.segment(3*i, 3) = vec34.col(i);
-    }
-    return vec12;
-}
-
-template<typename T>
-inline VecX stdVecToEigenVec(T stdVec){
-    VecX eigenVec = Eigen::VectorXd::Map(&stdVec[0], stdVec.size());
-    return eigenVec;
-}
 #endif  // MATHTYPES_H
